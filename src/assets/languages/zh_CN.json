@@ -1,0 +1,132 @@
+{
+  "header":{
+    "home":"首页",
+    "bank":"矿池",
+    "bonds":"债券",
+    "boardroom":"董事会",
+    "myWallet":"请登录钱包",
+    "insurance":"DEFI 保险",
+    "nft":"NFT",
+    "swap":"交易",
+    "about":"关于 Ocean",
+    "audit":"审计报告",
+    "connectToWallet":"请登录钱包",
+    "distributionChart":"代币分配",
+    "noneage":"零时科技",
+    "certiK":"CertiK (审计中)",
+    "slowMist":"漫雾科技 (审计中)"
+  },
+
+  "message":{
+    "comingSoon":"敬请期待"
+  },
+
+  "footer":{
+    "buy":"购买",
+    "tokenContract":"开源合约"
+  },
+
+  "homepage":{
+    "welcome":"Ocean",
+    "slogan":"Ocean Swap Bridge",
+    "description":"Ocean Swap Bridge 是跨越多个基于AMM交换的区块链的桥。任何人都可以当选成为OSB的验证。验证者负责连续提供基本的跨链中继验证数据，并获得Ocean令牌。如果价格合适，用户可以发送跨链交换请求的交易，并在目标链上获得希望的代币。通过OSB保证数据安全，并通过AMM滑点保证交换请求安全。",
+    "farm":"创世挖矿",
+    "products":"我们的产品",
+    "totalSupply":"Ocean 总量",
+    "tokenAllocation":"代币分配",
+    "marketing":"社区运营",
+    "investors":"早期投资人",
+    "team":"团队预留",
+    "nodes":"节点竞选",
+    "mining":"流动性挖矿",
+    "fairTransparent":"Ocean 持仓信息全透明",
+    "fairNote":"Ocean 欢迎社区监督",
+    "hecoInfo":"Heco区块浏览器",
+    "pool":"矿池地址",
+    "openContract":"合约开源代码",
+    "contractPool":"矿池地址",
+    "oceanDaoInfo":"首家DEFI跨链IDO平台. 安全,简单,完全去中心化.",
+    "oceanSwapInfo":"首家跨链AMM架构兑换平台,支持在不同链之间兑换token",
+    "oceanLabInfo":"专为OceanDao,筛选,投资,孵化优质项目."
+  },
+
+  "bank":{
+    "pickBank":"创世挖矿",
+    "bankNote":"通过质押 HSwap LP 和 OCEAN 赚取 OCEAN",
+    "deposit":"存储 ",
+    "earn":"赚取 ",
+    "by":"通过",
+    "select":"选择",
+    "comingSoon":"即将上线",
+    "and":" 和 ",
+    "totalStaked":"总质押",
+    "get":"获取",
+    "tvl":"当前锁定总值"
+  },
+
+  "stake":{
+    "deposit":"质押 ",
+    "andEarnOCEAN":"并赚取 OCEAN",
+    "byProvidingLiquidity":"通过提供流动性",
+    "earned":"已赚取",
+    "harvest":"收获",
+    "approve":"授权",
+    "stake":"质押",
+    "staked":"已质押",
+    "harvestAndUnstake":"收获 & 解押",
+    "avaliable":"可用余额",
+    "max":"最大",
+    "cancel":"取消",
+    "earn":"赚取",
+    "by":"通过质押",
+    "provideLiquidityTo":"在MDEX上提供流动性给",
+    "onMdex":"交易对",
+    "notification":{
+      "transactionSuccess":"交易成功",
+      "insufficientFunds":"余额不足",
+      "needGasFee":"您的钱包需要几个（> 0.01,用于支付矿工费）HT才能进行交易。",
+      "transactionSent":"交易已成功广播到Heco主网，请等待10-30秒进行确认。"
+    }
+  },
+
+  "bonds":{
+    "buyAndRedeem":"购买或兑换BBB债券",
+    "earnPremiums":"兑换BBB债券赚取额外奖励",
+    "purchaseBscBond":"购买BBB债券",
+    "bbcIsOver1":"BBC超过$1",
+    "purchase":"购买",
+    "redeemBbc":"兑换BBC现金",
+    "available":"可用余额",
+    "redeem":"提取奖励",
+    "basePrice":"基础价格 (昨日均价)",
+    "currentPrice":"当前价格: (BBC)^2"
+  },
+
+  "boardroom":{
+    "joinBbcCash":"参与BBC董事会",
+    "description":"质押OCEAN股票赚取分红",
+    "nextEpoch":"下个周期",
+    "oceanPrice":"BBC价格 (昨日均价)",
+    "scalingFactor":"倍率",
+    "treasuryAmount":"分红金额"
+  },
+
+  "about":{
+    "mining":{
+      "title":"Ocean 流动性挖矿",
+      "description":"OCEAN 作为平台权益通证，OCEAN 持有者未来可以享受整个平台生态所带来的收益分红。用户可以质押 OCEAN-LP Token 挖取 OCEAN。本金随时解押，收益每秒释放。"
+    },
+    "safe":{
+      "title":"Ocean Safe 保险",
+      "description":"Ocean Safe 通过 HECO 链运用去中心化的保险机制，在不需要任何第三方中心化的保险公司下，使用智能合约让所有 DEFI 用户均摊风险，保护自己的链上抵押资产。"
+    },
+    "nft":{
+      "title":"Ocean NFT 藏品",
+      "description":"Ocean NFT 收藏品将会邀请全球的著名设计师入住平台，定期为大家献上丰富并具有艺术收藏价值的优秀卡牌。"
+    },
+    "swap":{
+      "title":"OceanSwap 去中心化跨链交易所",
+      "description":"Ocean 将在 HECO 链上打造一个 AMM 架构的去中心化交易所，同时具备一键跨链 Swap 的体验，未来将会支持 ERC20，HRC20 等跨链资产自由流通。"
+    }
+  }
+}

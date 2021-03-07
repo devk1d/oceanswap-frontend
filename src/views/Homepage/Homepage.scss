@@ -1,0 +1,422 @@
+.homepage{
+  padding: 0 0 100px 0;
+  width: 100%;
+  min-height: calc(100vh - 180px);
+  max-width: 1200px;
+
+  .bannerContainer{
+    width: 100%;
+    position: relative;
+    img{
+      height: 450px;
+    }
+
+    .bannerInner{
+      max-width: 600px;
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translateY(-50%);
+      h1{
+        color: #242478;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 0;
+        line-height: 30px;
+      }
+
+      h2{
+        color: #405CF6;
+        font-size: 35px;
+        margin-bottom: 20px;
+      }
+
+      p{
+        margin-bottom: 20px;
+      }
+
+      .button{
+        width: 150px;
+        font-weight: bold;
+        color: white !important;
+        background-color: rgba(64, 92, 246, 0.6);
+      }
+    }
+
+  }
+
+  .bottomContainer{
+    background-image: url("../../assets/images/farmBg.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+  }
+
+  .products{
+    h1{
+      color: #242478;
+      font-size: 35px;
+      margin-bottom: 25px;
+    }
+
+    h2{
+      color: #332478;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    p{
+      font-weight: 400;
+      text-align: left;
+      font-size: 13px;
+      color: rgba(51, 36, 120, 0.6);
+    }
+
+    .productBox{
+      height: 180px;
+      background-color: #FFFFFF;
+      border-radius: 30px;
+      padding: 20px 20px 30px 20px;
+    }
+  }
+
+  .tokenAllocation{
+    max-width: 800px;
+
+    .totalSupply{
+      color: #A0A0BC;
+      font-size: 25px;
+      text-align: left;
+      position: relative;
+      span{
+        float: right;
+        color: #231815;
+        font-size: 30px;
+        line-height: 37px;
+      }
+    }
+
+    .box{
+      background: #FFFFFF;
+      box-shadow: 0px 0px 8px 4px #D3E5FB;
+      border-radius: 12px;
+      padding: 20px 40px;
+      margin-bottom: 20px;
+
+      .list{
+        p{
+          font-size: 16px;
+          margin: 10px 0;
+          position: relative;
+          .dot{
+            margin-right: 10px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #45C9B5;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+          }
+
+          .percent{
+            color: #231815;
+            padding-left: 40px;
+          }
+          span{
+            display: inline-block;
+            margin: 0 5px;
+          }
+        }
+      }
+    }
+
+    .teamList{
+      padding: 20px 70px 40px 70px;
+      position: relative;
+      margin-bottom: 50px;
+      .poolContractAddress{
+        margin-top:30px;
+      }
+      .listHeader{
+        position: relative;
+        padding-bottom: 20px;
+        width: auto;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 0 20px 20px 20px;
+        .pieIcon{
+          position: absolute;
+          left: -60px;
+          width: 40px;
+          top: 10px;
+        }
+
+        h1{
+          font-size: 25px;
+          text-align: left;
+          margin-bottom: 0;
+        }
+
+        p{
+          text-align: left;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        .hecoInfo{
+          display: inline-block;
+          position: absolute;
+          right:0;
+          top: 10%;
+          // transform: translateY(-50%);
+          padding: 7px 20px;
+          background: #01943F;
+          border-radius: 8px;
+
+          span{
+            font-size: 18px;
+            color: white;
+            margin: 0 20px 0 20px;
+          }
+
+          img{
+            margin-top: -5px;
+          }
+        }
+      }
+
+      p{
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 0 20px;
+      }
+
+      .title{
+        p{
+          color:#242478;
+          text-align: left;
+        }
+
+      }
+
+      .address{
+        p{
+          a{
+            color:rgba(36, 36, 120, 0.5);
+          }
+          text-align: center;
+        }
+
+      }
+
+      .percent{
+        p{
+
+          color:#242478;
+          text-align: center;
+        }
+
+      }
+
+      .amount{
+        p{
+          a{
+            color:#242478;
+          }
+          color:  #405CF6;
+          text-align: right;
+        }
+
+      }
+    }
+
+
+
+  }
+
+  @media(max-width:765px){
+    .bannerContainer{
+      img{
+        height: 350px;
+        opacity: 0.2;
+      }
+
+      .bannerInner{
+        padding: 0 15px;
+        max-width: 600px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        h1{
+          color: #242478;
+          font-weight: bold;
+          font-size: 30px;
+          margin-bottom: 0;
+          line-height: 30px;
+          text-align: center;
+        }
+
+        h2{
+          color: #405CF6;
+          font-size: 20px;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+
+        p{
+          font-size: 12px;
+          margin-bottom: 20px;
+          text-align: justify;
+        }
+
+        .button{
+          width: 150px;
+          margin: 0 auto;
+          font-weight: bold;
+          color: white !important;
+          background-color: rgba(64, 92, 246, 0.6);
+        }
+      }
+
+    }
+
+    .products{
+      margin-top: 30px;
+      padding: 0 15px;
+      h1{
+        font-size: 20px;
+      }
+
+      .productBox{
+        height: auto;
+        margin-bottom: 20px;
+      }
+    }
+
+    .tokenAllocation{
+      max-width: 100%;
+      .totalSupply{
+        font-size: 16px;
+        span{
+          font-size: 18px;
+          line-height: 24px;
+        }
+      }
+
+      .box{
+        margin-bottom: 10px;
+        padding: 20px;
+        .list{
+          p{
+            font-size: 12px;
+            margin: 8px 0;
+            .dot{
+              margin-right: 5px;
+              width: 14px;
+              height: 14px;
+              border-radius: 7px;
+            }
+
+            .percent{
+              padding-left: 23px;
+            }
+          }
+        }
+      }
+
+      .teamList{
+        padding: 20px 20px 40px 20px;
+
+        .listHeader{
+          padding-bottom: 10px;
+          margin: 0;
+          .pieIcon{
+            width: 0;
+          }
+
+          h1{
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: 0;
+          }
+
+          p{
+            text-align: left;
+            margin: 0 !important;
+            padding: 0 !important;
+          }
+
+          .hecoInfo{
+            display: block;
+            position: relative;
+            // transform: translateY(-50%);
+            padding: 4px 20px;
+            background: #01943F;
+            border-radius: 8px;
+            margin-top: 10px;
+            span{
+              font-size: 12px;
+              color: white;
+              margin: 0 20px 0 20px;
+            }
+
+            img{
+              width: 15px;
+              margin-top: -3px;
+            }
+          }
+        }
+
+        p{
+          font-size: 8px;
+          margin: 10px 0;
+          padding: 0;
+        }
+
+        .title{
+          p{
+            color:#242478;
+            text-align: left;
+          }
+
+        }
+
+        .address{
+          p{
+            a{
+              color:rgba(36, 36, 120, 0.5);
+            }
+            text-align: center;
+          }
+
+        }
+
+        .percent{
+          p{
+
+            color:#242478;
+            text-align: center;
+          }
+
+        }
+
+        .amount{
+          p{
+            a{
+              color:#242478;
+            }
+            color:  #405CF6;
+            text-align: right;
+          }
+
+        }
+      }
+    }
+  }
+
+
+}

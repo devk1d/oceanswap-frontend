@@ -1,0 +1,132 @@
+{
+
+  "header":{
+    "home":"Home",
+    "bank":"Pool",
+    "bonds":"Bonds",
+    "boardroom":"Boardroom",
+    "myWallet":"My Wallet",
+    "about":"About Us",
+    "audit":"Audit",
+    "connectToWallet":"Connect To Wallet",
+    "distributionChart":"Distribution",
+    "noneage":"Noneage",
+    "certiK":"CertiK (Pending)",
+    "slowMist":"SlowMist (Pending)"
+  },
+
+  "footer":{
+    "buy":"BUY",
+    "tokenContract":"Contract"
+  },
+
+  "homepage":{
+    "welcome":"Ocean",
+    "slogan":"Ocean Swap Bridge",
+    "description":"Ocean Swap Bridge is a bridge crossing multiple block chains based AMM swap. Anyone can be elected to become Validator of OSB. Validators are responsible of supplying essential cross-chain relay validation data continuously and earn Ocean tokens. Users are able to send transaction of cross-chain swap request and get wished token on target chain if price fits. Data safety is guaranteed via OSB and Swap Request safety is guaranteed via AMM Slippage.",
+    "farm":"Launch App",
+    "products":"Our Products",
+    "totalSupply":"Total Supply",
+    "tokenAllocation":"Token Allocation",
+    "marketing":"PR and Marketing",
+    "investors":"Early Investors",
+    "team":"Team rewards",
+    "nodes":"Validator Election",
+    "mining":"Liquidity Mining",
+    "fairTransparent":"Fair and Transparent",
+    "fairNote":"Ocean Team doesn’t hold The OCEAN token",
+    "hecoInfo":"HecoInfo",
+    "pool":"Pool Address",
+    "openContract":"Verified Contract",
+    "contractPool":"Pool Information",
+    "oceanDaoInfo":"Awesome platform for initial dex offering. Safe, easy and fully decentralized.",
+    "oceanSwapInfo":"Amazing cross-chain AMM swap. Smoothly exchange your tokens between chains.",
+    "oceanLabInfo":"Brilliant foundation of filtering, investing and hatching qualified project onto OceanDao."
+  },
+
+  "bank":{
+    "pickBank":"Genesis Mining",
+    "bankNote":"Earn OCEAN tokens by staking HSwap LP & OCEAN",
+    "deposit":"Deposit ",
+    "earn":"Earn ",
+    "by":"by",
+    "select":"Select",
+    "comingSoon":"Coming Soon",
+    "and":" and ",
+    "totalStaked":"Total Stake",
+    "get":"Get",
+    "tvl":"Total Value Locked "
+  },
+
+  "stake":{
+    "deposit":"Deposit ",
+    "andEarnOCEAN":" and earn OCEAN",
+    "byProvidingLiquidity":" by providing liquidity",
+    "earned":"earned",
+    "harvest":"Harvest",
+    "approve":"Approve ",
+    "stake":"Stake ",
+    "harvestAndUnstake":"Settle & Unstake",
+    "avaliable":"Available",
+    "max":"MAX",
+    "cancel":"Cancel",
+    "earn":"Earn",
+    "by":"by Stake",
+    "provideLiquidityTo":"Provide liquility to ",
+    "onMdex":" pair on MDEX",
+    "notification":{
+      "transactionSuccess":"Transaction Confirmed!",
+      "insufficientFunds":"Insufficient Balance",
+      "needGasFee":"You need a few( > 0.01) HT in your wallet to make an transaction",
+      "transactionSent":"Transaction has been broadcast to the heco-chain, please wait 10-30s for the confirmation"
+    }
+  },
+
+  "bonds":{
+    "buyAndRedeem":"Buy & Redeem Bonds",
+    "earnPremiums":"Earn premiums upon redemption",
+    "purchaseBscBond":"Purchase BBC Bond",
+    "bbcIsOver1":"BBC is over $1",
+    "purchase":"Purchase",
+    "redeemBbc":"Redeem BBC Cash",
+    "avaliable":"Available",
+    "redeem":"Redeem",
+    "basePrice":"Base Price (Last-Day TWAP)",
+    "currentPrice":"Current Price: (BBC)^2"
+  },
+
+  "boardroom":{
+    "joinBbcCash":"Join the BBC Cash",
+    "description":"Deposit BBC Shares and earn inflationary rewards",
+    "nextEpoch":"Next Epoch",
+    "oceanPrice":"BBC Price (TWAP)",
+    "scalingFactor":"Scaling Factor",
+    "treasuryAmount":"Treasury Amount",
+    "bbcCashEarned":"BBC Cash Earned",
+    "claimRerwards":"Claim Reward",
+    "oceanStaked":"BBC Share Staked",
+    "approveBbcShare":"Approve BBC Share",
+    "stakeBbcShare":"Stake BBC Share",
+    "settleAndWithdraw":"Settle & Withdraw"
+  },
+
+
+  "about":{
+    "mining":{
+      "title":"Ocean Mining",
+      "description":"OCEAN is our platform equity Token. OCEAN holders can enjoy the income dividends brought by the entire platform ecology in the future. Users can minig OCEAN by staking OCEAN-LP. Unstake any time, and the income is released every second."
+    },
+    "safe":{
+      "title":"Ocean Safe",
+      "description":"Ocean Safe uses decentralized insurance mechanism through the HECO chain, and uses smart contracts to allow all DEFI users to share the risk evenly and protect their mortgage assets on the chain without any third-party centralized insurance company."
+    },
+    "nft":{
+      "title":"Ocean NFT",
+      "description":"The Ocean NFT collection will invite famous designers from all over the world to our platform, and regularly present rich and excellent cards with artistic collection value."
+    },
+    "swap":{
+      "title":"OceanSwap",
+      "description":"We will build the first AMM-based Swap decentralized transaction on the HECO chain. At the same time, the exchange will have the function of cross-chain Swap, allowing users to use ERC20, TRC20 and other cross-chain assets."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "OceanSwap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/create-react-context": "^0.2.5",
+    "@ant-design/icons": "^4.0.0-rc.0",
+    "antd": "^3.24.2",
+    "autoprefixer": "^10.2.3",
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "node-gyp": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "numeral": "^2.0.6",
+    "papaparse": "^5.1.0",
+    "react": "^16.11.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-countup": "^4.2.3",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "web3": "^1.2.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm build/static/js/*.map && rm build/static/css/*.map",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "webpack": "4.28.3"
+  }
+}

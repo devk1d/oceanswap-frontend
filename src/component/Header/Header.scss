@@ -1,0 +1,183 @@
+.header{
+  position: relative;
+  height: 80px;
+  width: 100%;
+  padding: 0 30px;
+
+  .innerDiv{
+    position: relative;
+    height: 80px;
+    width: 100%;
+
+    .logo{
+      position: absolute;
+      margin: auto;
+      top:0;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+    }
+
+    .mobileLogo{
+      display: none;
+    }
+
+    .tabDiv{
+      position: absolute;
+      left: 250px;
+      top: 50%;
+      left: 250px;
+      transform: translateY(-50%);
+      .tabs{
+        p{
+          display: inline-block;
+          margin: auto 20px;
+          // line-height: 80px;
+          font-size: 16px;
+          color: #2F286B;
+          text-align: right;
+          font-weight: 700;
+        }
+        .selectedTab{
+          color: #405CF6;
+        }
+      }
+    }
+
+    .audit{
+      background-color: rgba(53, 124, 225, 0.2);
+      padding: 5px  20px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: rgba(53, 124, 225, 1);
+    }
+
+    .walletBar{
+      position: absolute;
+      right: 50px;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 30px;
+      line-height: 30px;
+      div{
+        display: inline-block;
+      }
+
+      .falBalance{
+        margin-right: 10px;
+        padding: 0 10px;
+        border-radius: 25px;
+        color: rgba(47, 40, 107, 1);
+        background: white;
+        border: 2px solid rgba(36, 36, 120, 1);
+      }
+
+      .walletInfo{
+        font-weight: 600;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 0 15px 0 15px;
+        cursor: pointer;
+        position: relative;
+        border-radius: 25px;
+        background: white;
+        color: rgba(47, 40, 107, 1);
+        border: 2px solid rgba(36, 36, 120, 1);
+
+        .address{
+          margin-left: 10px;
+          font-size: 14px;
+          cursor: pointer;
+          user-select: none;
+          font-weight: 500;
+          position: relative;
+        }
+      }
+    }
+
+    .changeLang{
+      position: absolute;
+      right: 0;
+      top: 50%;
+      padding: 5px;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      background-color: #405CF6;
+    }
+  }
+
+  @media(max-width: 725px){
+    padding: 0 10px;
+    .innerDiv{
+      height: 60px;
+      .logo{
+        display: none;
+      }
+      .mobileLogo{
+        display: inline-block;
+        width: 50px;
+        position: absolute;
+        margin: auto;
+        top:0;
+        bottom: 0;
+        left: 0;
+      }
+      .tabDiv{
+        width: calc(100% - 100px);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .tabs{
+          p{
+            margin: auto 10px;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: center;
+          }
+        }
+      }
+
+      .walletBar{
+        transform: translateY(0);
+        border-top: 2px solid rgba(36, 36, 120, 0.5);
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top:auto;
+        z-index: 3;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        // line-height: 38px;
+        .falBalance{
+          border: none;
+          border-radius: 0;
+          float: left;
+          font-size: 14px;
+          line-height: 38px;
+        }
+
+        .walletInfo{
+          line-height: 38px;
+          font-size: 14px;
+          border: none;
+          border-radius: 0;
+          .address{
+            font-size: 14px;
+          }
+        }
+    }
+
+      .changeLang{
+        right: 0;
+      }
+    }
+
+
+  }
+}

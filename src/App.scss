@@ -1,0 +1,91 @@
+@import '~antd/dist/antd.css';
+
+.App{
+  font-family: "Arial Rounded MT Bold";
+  min-height: 100vh;
+  color: #332478;
+  background-color: #E0EEFF;
+  h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+    // user-select: none;
+    letter-spacing: 0.1px;
+  }
+
+  img, span{
+    // user-select: none;
+  }
+
+  .greating{
+    margin-bottom: 50px;
+
+    img{
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    h1{
+      font-size: 28px;
+      color: #332478;
+      font-weight: 700;
+      margin-bottom: 0px;
+      letter-spacing: 1px;
+    }
+
+    h2{
+      font-size: 18px;
+      font-weight: 400;
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
+
+    h3{
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .button{
+    background: rgba(64, 92, 246, 0.2);
+    padding: 10px 20px;
+    width: 90%;
+    border-radius: 10px;
+    color: #405CF6 !important;
+    text-align: center;
+  }
+
+  @media(max-width: 765px){
+    .greating{
+      margin-bottom: 30px;
+      max-width: 90%;
+      img{
+        width: 80px;
+      }
+
+      h1{
+        font-size: 20px;
+      }
+
+      h3{
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+
+}
+
+
+.clickableButton{
+  user-select: none;
+}
+
+.clickableButton:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.clickableButton:active{
+  opacity: 0.8;
+}
