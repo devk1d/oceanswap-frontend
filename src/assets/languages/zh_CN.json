@@ -34,6 +34,7 @@
     "products":"我们的产品",
     "totalSupply":"Ocean 总量",
     "tokenAllocation":"代币分配",
+    "lockInfo":"除流动性挖矿产出的Token外，其余部分在流动性挖矿开启一周内不进入市场流通。所有地址均公示, 接受社区监督。",
     "marketing":"社区运营",
     "investors":"早期投资人",
     "team":"团队预留",
@@ -45,9 +46,9 @@
     "pool":"矿池地址",
     "openContract":"合约开源代码",
     "contractPool":"矿池地址",
-    "oceanDaoInfo":"首家DEFI跨链IDO平台. 安全,简单,完全去中心化.",
-    "oceanSwapInfo":"首家跨链AMM架构兑换平台,支持在不同链之间兑换token",
-    "oceanLabInfo":"专为OceanDao,筛选,投资,孵化优质项目."
+    "oceanDaoInfo":"首家 DEFI 跨链 IDO 平台。 安全、简单、完全去中心化。",
+    "oceanSwapInfo":"首家跨链 AMM 架构兑换平台，支持在不同链之间兑换 Token。",
+    "oceanLabInfo":"专为 OceanDao 筛选、投资、孵化优质项目。"
   },
 
   "bank":{

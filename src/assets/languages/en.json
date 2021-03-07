@@ -28,6 +28,7 @@
     "products":"Our Products",
     "totalSupply":"Total Supply",
     "tokenAllocation":"Token Allocation",
+    "lockInfo":"Except for the tokens produced by liquid mining, the rest will not enter the market within one week of liquid mining. All addresses are publicized and subject to community supervision.",
     "marketing":"PR and Marketing",
     "investors":"Early Investors",
     "team":"Team rewards",

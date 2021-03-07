@@ -126,6 +126,8 @@ class Homepage extends Component{
                   <img src={require(`../../assets/images/distribution.png`)} alt="coin" width="90%"/>
                 </Col>
               </Row>
+              <br/>
+              <p style={{textAlign:"center"}}>{this.props.languageFile.homepage.lockInfo}</p>
             </div>
 
             <div className="box teamList">
