@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link, HashRouter} from "react-router-dom";
 import {reduceAddress, numeral, Utils} from "../../utils/utils";
-import { Menu, Dropdown } from 'antd';
+import { Menu, Dropdown ,message} from 'antd';
 import "./Header.scss";
 class Header extends Component{
   constructor(props) {
@@ -103,6 +103,9 @@ class Header extends Component{
                 <Link to="/bank">
                   <p className={selected === "bank" ? "selectedTab clickableButton" : "clickableButton"}>{this.props.languageFile.header.bank}</p>
                 </Link>
+                <p onClick={()=>{message.info(this.props.languageFile.message.comingSoon)}}>
+                  IDO
+                </p>
                 <Dropdown overlay={menu} placement="bottomCenter" arrow>
                   <p>{this.props.languageFile.header.audit}</p>
                 </Dropdown>
