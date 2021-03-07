@@ -53,7 +53,7 @@
 
   "bank":{
     "pickBank":"创世挖矿",
-    "bankNote":"通过质押 HSwap LP 和 OCEAN 赚取 OCEAN",
+    "bankNote":"通过质押 HSwap LP 和 ODT 赚取 ODT",
     "deposit":"存储 ",
     "earn":"赚取 ",
     "by":"通过",

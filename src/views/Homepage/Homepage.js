@@ -232,7 +232,7 @@ class Homepage extends Component{
                       </p>
                       <p>
                         <a href={`https://hecoinfo.com/token/${ADDRESSES.ocean}?a=${ADDRESSES.usdt1ocean2oceanPool}`} target="_blank" rel="noopener noreferrer">
-                          {reduceAddress(ADDRESSES.btc1ocean2oceanPool)}
+                          {reduceAddress(ADDRESSES.usdt1ocean2oceanPool)}
                         </a>
                       </p>
                       <p>
