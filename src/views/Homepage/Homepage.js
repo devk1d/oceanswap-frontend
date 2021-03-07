@@ -193,10 +193,10 @@ class Homepage extends Component{
                 </Col>
                 <Col span={7}>
                   <div className="amount">
-                    <p>{numeral(this.state.nodesBalance).format("0,0")} OCEAN</p>
-                    <p>{numeral(this.state.teamBalance).format("0,0")} OCEAN</p>
-                    <p>{numeral(this.state.investorsBalance).format("0,0")} OCEAN</p>
-                    <p>{numeral(this.state.marketingBalance).format("0,0")} OCEAN</p>
+                    <p>{numeral(this.state.nodesBalance).format("0,0")} ODT</p>
+                    <p>{numeral(this.state.teamBalance).format("0,0")} ODT</p>
+                    <p>{numeral(this.state.investorsBalance).format("0,0")} ODT</p>
+                    <p>{numeral(this.state.marketingBalance).format("0,0")} ODT</p>
                   </div>
                 </Col>
               </Row>
@@ -211,10 +211,10 @@ class Homepage extends Component{
                 <Row type="flex" justify="center" align="middle">
                   <Col span={8}>
                     <div className="title">
-                      <p>OCEAN-HBTC-LP</p>
-                      <p>OCEAN-HT-LP</p>
-                      <p>OCEAN-USDT-LP</p>
-                      <p>OCEAN</p>
+                      <p>ODT-HBTC-LP</p>
+                      <p>ODT-HT-LP</p>
+                      <p>ODT-USDT-LP</p>
+                      <p>ODT</p>
                       <p>USDT</p>
                     </div>
                   </Col>

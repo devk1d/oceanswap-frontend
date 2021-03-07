@@ -126,7 +126,7 @@ class Stake extends Component{
 
   render(){
     const pool = Utils.pools[this.props.id];
-    let earnedToken = "OCEAN";
+    let earnedToken = "ODT";
     let earnedImg = "ocean.png";
     return(
 

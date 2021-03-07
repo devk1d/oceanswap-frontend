@@ -23,7 +23,7 @@
   "homepage":{
     "welcome":"Ocean",
     "slogan":"Ocean Swap Bridge",
-    "description":"Ocean Swap Bridge is a bridge crossing multiple block chains based AMM swap. Anyone can be elected to become Validator of OSB. Validators are responsible of supplying essential cross-chain relay validation data continuously and earn Ocean tokens. Users are able to send transaction of cross-chain swap request and get wished token on target chain if price fits. Data safety is guaranteed via OSB and Swap Request safety is guaranteed via AMM Slippage.",
+    "description":"Ocean Swap Bridge is a bridge crossing multiple block chains based AMM swap. Anyone can be elected to become Validator of ODT. Validators are responsible of supplying essential cross-chain relay validation data continuously and earn ODT tokens. Users are able to send transaction of cross-chain swap request and get wished token on target chain if price fits. Data safety is guaranteed via OSB and Swap Request safety is guaranteed via AMM Slippage.",
     "farm":"Launch App",
     "products":"Our Products",
     "totalSupply":"Total Supply",
@@ -35,7 +35,7 @@
     "nodes":"Validator Election",
     "mining":"Liquidity Mining",
     "fairTransparent":"Fair and Transparent",
-    "fairNote":"Ocean Team doesn’t hold The OCEAN token",
+    "fairNote":"Ocean Team doesn’t hold The ODT token",
     "hecoInfo":"HecoInfo",
     "pool":"Pool Address",
     "openContract":"Verified Contract",
@@ -47,7 +47,7 @@
 
   "bank":{
     "pickBank":"Genesis Mining",
-    "bankNote":"Earn OCEAN tokens by staking HSwap LP & OCEAN",
+    "bankNote":"Earn ODT tokens by staking HSwap LP & ODT",
     "deposit":"Deposit ",
     "earn":"Earn ",
     "by":"by",
@@ -61,7 +61,7 @@
 
   "stake":{
     "deposit":"Deposit ",
-    "andEarnOCEAN":" and earn OCEAN",
+    "andEarnOCEAN":" and earn ODT",
     "byProvidingLiquidity":" by providing liquidity",
     "earned":"earned",
     "harvest":"Harvest",

@@ -8,7 +8,7 @@ export const Utils = {
 
     pools:{
       ocean:{
-        name: "OCEAN",
+        name: "ODT",
         img: "ocean.png",
         lpPairAddress:ADDRESSES.usdt2oceanPairAddr,
         poolContractAddress:ADDRESSES.ocean2oceanPool,
@@ -33,7 +33,7 @@ export const Utils = {
       },
 
       oceanHtLp:{
-        name: "OCEAN-HT-LP",
+        name: "ODT-HT-LP",
         img: "ht.png",
         lpPairAddress:ADDRESSES.ht2oceanPairAddr,
         poolContractAddress:ADDRESSES.ht1ocean2oceanPool,
@@ -45,7 +45,7 @@ export const Utils = {
         status: true
       },
       oceanUsdtLp:{
-        name: "OCEAN-USDT-LP",
+        name: "ODT-USDT-LP",
         img: "usdt.png",
         lpPairAddress:ADDRESSES.usdt2oceanPairAddr,
         poolContractAddress:ADDRESSES.usdt1ocean2oceanPool,
@@ -58,7 +58,7 @@ export const Utils = {
       },
 
       oceanBtcLp:{
-        name: "OCEAN-HBTC-LP",
+        name: "ODT-HBTC-LP",
         img: "btc.png",
         lpPairAddress:ADDRESSES.btc2oceanPairAddr,
         poolContractAddress:ADDRESSES.btc1ocean2oceanPool,
