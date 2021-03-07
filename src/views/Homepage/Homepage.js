@@ -87,7 +87,7 @@ class Homepage extends Component{
 
             <div className="totalSupply box">
               {this.props.languageFile.homepage.totalSupply}
-              <span>100,000,000</span>
+              <span>1,000,000,000</span>
             </div>
 
             <div className="box">
@@ -95,12 +95,12 @@ class Homepage extends Component{
                 <Col xs={16} sm={16} md={14}>
                   <div className="list">
                     <p>
-                      <span className="dot" style={{backgroundColor:"#45C9B5"}}></span>
+                      <span className="dot" style={{backgroundColor:"#54E3EB"}}></span>
                       <span className="percent">50%</span>
                       <span className="name">{this.props.languageFile.homepage.mining}</span>
                     </p>
                     <p>
-                      <span className="dot" style={{backgroundColor:"#FFE955"}}></span>
+                      <span className="dot" style={{backgroundColor:"#494B72"}}></span>
                       <span className="percent">40%</span>
                       <span className="name">{this.props.languageFile.homepage.nodes}</span>
                     </p>
@@ -110,12 +110,12 @@ class Homepage extends Component{
                       <span className="name">{this.props.languageFile.homepage.team}</span>
                     </p>
                     <p>
-                      <span className="dot" style={{backgroundColor:"#494B72"}}></span>
+                      <span className="dot" style={{backgroundColor:"#FFE955"}}></span>
                       <span className="percent">4%</span>
                       <span className="name">{this.props.languageFile.homepage.investors}</span>
                     </p>
                     <p>
-                      <span className="dot" style={{backgroundColor:"#54E3EB"}}></span>
+                      <span className="dot" style={{backgroundColor:"#45C9B5"}}></span>
                       <span className="percent">1%</span>
                       <span className="name">{this.props.languageFile.homepage.marketing}</span>
                     </p>

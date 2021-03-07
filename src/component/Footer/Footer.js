@@ -12,15 +12,15 @@ class Footer extends Component{
     return(
         <div className="footer" align="middle">
 
-          <a href={"https://t.me/"} target="_blank" rel="noopener noreferrer">
+          <a href={"https://t.me/oceandaofinance"} target="_blank" rel="noopener noreferrer">
             Telegram
             {/* <img src={require("../../assets/images/twitter.png")} alt="bg" width="30px"/> */}
           </a>
-          <a href={"https://twitter.com/"} target="_blank" rel="noopener noreferrer">
+          <a href={"/"}>
             Twitter
             {/* <img src={require("../../assets/images/twitter.png")} alt="bg" width="30px"/> */}
           </a>
-          <a href={"https://medium.com"} target="_blank" rel="noopener noreferrer">
+          <a href={"/"}>
             Medium
             {/* <img src={require("../../assets/images/medium.png")} alt="bg" width="30px"/> */}
           </a>
